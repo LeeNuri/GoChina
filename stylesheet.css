@@ -1,3 +1,35 @@
+html {
+	background: url(img/main.jpg) no-repeat center center fixed;
+ 	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover; background-size: cover;
+}
+
+
 .user{
-		background-image : url("")
+	background-image : url("img/user.jpg")
+}
+
+.basic{
+	background-image : url("img/basic.jpg")
+}
+
+.food{
+	background-image : url("img/food.jpg")
+}
+
+.picture{
+	background-image : url("img/picture.jpg")
+}
+
+.bed{
+	background-image : url("img/bed.jpg")
+}
+
+.shopping{
+	background-image : url("img/shopping.jpg")
+}
+
+.bus{
+	background-image : url("img/bus.jpg")
 }
