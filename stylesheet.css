@@ -1,39 +1,39 @@
-#m{
+.m{
 	position : absolute;
 	height : auto;
 	width : auto;
 }
-.user{
+#user{
 	background-image : url("img/user.jpg");
 
 }
 
-.basic{
+#basic{
 	background-image : url("img/basic.jpeg");
 
 }
 
-.food{
+#food{
 	background-image : url("img/food.jpeg");
 
 }
 
-.picture{
+#picture{
 	background-image : url("img/picture.jpeg");
 
 }
 
-.bed{
+#bed{
 	background-image : url("img/bed.jpeg");
 
 }
 
-.shopping{
+#shopping{
 	background-image : url("img/shopping.jpeg");
 
 }
 
-.bus{
+#bus{
 	background-image : url("img/bus.jpeg");
 
 }
