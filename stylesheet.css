@@ -73,20 +73,30 @@ html, body {
 	background-image:url("img/bus.jpg");
 }
 
-#main .category {
+#category .top {
+	display: fixed;
+	width: 100%;
+	height: 76px;
+	border-bottom: 2px solid #049CBF;
+	font-family: 'Nanum Pen Script';
+	line-height: 76px;
+	font-size: 40px;
+}
+
+#category .category-menu {
 	margin: 0;
 	margin-top: 110px;
 	padding: 0;
 }
 
-#main .category li{
+#category .category-menu li{
 	margin: 10px;
 	list-style-type: none;
 	width: 289px;
 	height: 87px;
 	
 }
-#main .category li{
+#category .category-menu li{
 	background-color: white;
 	border: 1px solid  #049CBF;
 	border-radius: 10px;

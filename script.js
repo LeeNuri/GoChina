@@ -1,5 +1,12 @@
 $(document).ready(function(){
+	$("#main .menu li").click(function(){
+		show("category")
+	});
+	$("#category").hide();
 
+	$("#category .top").click(function(){
+		show("main");
+	});
 });
 
 /*
@@ -18,10 +25,9 @@ $(document).ready(function() {
 	});
 
 	show("view0");	
-});
+});*/
 
 var show = function(viewId) {
 	$(".view").fadeOut();
 	$("#"+viewId).fadeIn();
 }
-*/
