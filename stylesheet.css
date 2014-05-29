@@ -7,29 +7,58 @@ html {
 
 
 .user{
-	background-image : url("img/user.jpg")
+	background-image : url("img/user.jpg");
+	position : absolute;
+	top : 18px;
+	right : 0px;
 }
 
 .basic{
-	background-image : url("img/basic.jpg")
+	background-image : url("img/basic.jpg");
+	position : absolute;
+	top : 111px;
+	left : 18px;
 }
 
 .food{
-	background-image : url("img/food.jpg")
+	background-image : url("img/food.jpg");
+	position : absolute;
+	top : 111px;
+	right : 18px;
 }
 
 .picture{
-	background-image : url("img/picture.jpg")
+	background-image : url("img/picture.jpg");
+	position : absolute;
+	top : 234px;
+	left : 18px;
 }
 
 .bed{
-	background-image : url("img/bed.jpg")
+	background-image : url("img/bed.jpg");
+	position : absolute;
+	top : 234px;
+	right : 18px;
 }
 
 .shopping{
-	background-image : url("img/shopping.jpg")
+	background-image : url("img/shopping.jpg");
+	position : absolute;
+	top : 357px;
+	left : 18px;
 }
 
 .bus{
-	background-image : url("img/bus.jpg")
+	background-image : url("img/bus.jpg");
+	position : absolute;
+	top : 357px;
+	right : 18px;
 }
+
+
+
+
+
+
+
+
