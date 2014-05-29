@@ -1,7 +1,7 @@
 .m{
 	position : absolute;
-	height :auto;
-	width : auto;
+	height :100%;
+	width : 100%;
 }
 #user{
 	background-image : url("img/user.jpg");
