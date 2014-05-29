@@ -1,4 +1,8 @@
-
+#m{
+	position : absolute;
+	height : auto;
+	width : auto;
+}
 .user{
 	background-image : url("img/user.jpg");
 
