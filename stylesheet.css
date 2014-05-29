@@ -1,58 +1,37 @@
 
 .user{
 	background-image : url("img/user.jpeg");
-	position : absolute;
-	height : auto;
-	top : 18px;
-	right : 0px;
+
 }
 
 .basic{
 	background-image : url("img/basic.jpeg");
-	position : absolute;
-	height : auto;
-	top : 111px;
-	left : 18px;
+
 }
 
 .food{
 	background-image : url("img/food.jpeg");
-	position : absolute;
-	height : auto;
-	top : 111px;
-	right : 18px;
+
 }
 
 .picture{
 	background-image : url("img/picture.jpeg");
-	position : absolute;
-	height : auto;
-	top : 234px;
-	left : 18px;
+
 }
 
 .bed{
 	background-image : url("img/bed.jpeg");
-	position : absolute;
-	height : auto;
-	top : 234px;
-	right : 18px;
+
 }
 
 .shopping{
 	background-image : url("img/shopping.jpeg");
-	position : absolute;
-	height : auto;
-	top : 357px;
-	left : 18px;
+
 }
 
 .bus{
 	background-image : url("img/bus.jpeg");
-	position : absolute;
-	height : auto;
-	top : 357px;
-	right : 18px;
+
 }
 
 
