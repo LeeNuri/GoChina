@@ -73,6 +73,24 @@ html, body {
 	background-image:url("img/bus.jpg");
 }
 
+#main .category {
+	margin: 0;
+	margin-top: 110px;
+	padding: 0;
+}
+
+#main .category li{
+	margin: 10px;
+	list-style-type: none;
+	width: 289px;
+	height: 87px;
+	
+}
+#main .category li{
+	background-color: white;
+	border: 1px solid  #049CBF;
+	border-radius: 10px;
+}
 
 /*
 .m{
