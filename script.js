@@ -15,11 +15,15 @@ $(document).ready(function(){
 	})
 	
 	$("#post .top").click(function(){
-		show("main");
+		show("category");
 	});
 	
 	$("#post #toggle").click(function(){
 		$("#detail").toggle();
+	})
+
+	$("#user-bar").click(function(){
+		$("#user-more").toggle();
 	})
 });
  

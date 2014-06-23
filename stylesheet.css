@@ -218,4 +218,44 @@ table {
 	background-image: url("img/user.jpg");
 	background-repeat: no-repeat;
 	background-position: center; 
+	width: 45px;
+	height: 43px;
+}
+
+#user-bar {
+	background-image: url("img/user-bar.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	float: right;
+	width: 68px;
+	height: 43px;
+}
+
+#user-more {
+	background-image: url("img/user-more.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	float: right;
+	width: 185px;
+	height: 480px;
+}
+
+#user-more li {
+	margin :10px;
+	list-style-type: none;
+	width: 61px;
+	height: 61px;
+}
+
+#user-more li(1) {
+	background-image: url("img/user.jpg");
+}
+#user-more li(2) {
+	background-image: url("img/history.png");
+}
+#user-more li(3) {
+	background-image: url("img/record-h.png");
+}
+#user-more li(4) {
+	background-image: url("img/logout.png");
 }
