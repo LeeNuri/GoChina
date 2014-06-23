@@ -67,9 +67,25 @@ $(document).ready(function(){
 	})
 	
 	//post
-	$("#post-a .top, #post-d .top, #post-g .top, #post-j .top, #post-m .top, #post-p .top,").click(function(){
-		show("category");
+	$("#post-a .top").click(function(){
+		show("category-a");
 	});
+	$("#post-d .top").click(function(){
+		show("category-d");
+	});
+	$("#post-g .top").click(function(){
+		show("category-g");
+	});
+	$("#post-j .top").click(function(){
+		show("category-j");
+	});
+	$("#post-m .top").click(function(){
+		show("category-m");
+	});
+	$("#post-p .top").click(function(){
+		show("category-p");
+	});
+
 	
 	$("#toggle").click(function(){
 		$("#detail").toggle();

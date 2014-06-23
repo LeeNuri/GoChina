@@ -85,15 +85,13 @@ html, body {
 	list-style-type: none;
 	width: 289px;
 	height: 87px;	
-}
-#category .category-menu li{
 	background-color: white;
 	border: 1px solid  #049CBF;
 	border-radius: 10px;
 }
 
 /*post*/
-.post-menu-a, .post-menu-d, .post-menu-g, .post-menu-j, .post-menu-m, .post-menu-p, {
+.post-menu-a, .post-menu-d, .post-menu-g, .post-menu-j, .post-menu-m, .post-menu-p {
 	margin: 0;
 	margin-top: 110px;
 	padding: 0;
@@ -202,6 +200,14 @@ table {
         position: absolute;
         margin-top: 3px;
         margin-left: 10px;
+}
+
+.user {
+	background-image:url("img/user.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 45px;
+	height: 43px;
 }
 
 /*detail*/
