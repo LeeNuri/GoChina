@@ -90,6 +90,25 @@ html, body {
 	border-radius: 10px;
 }
 
+.category-menu-a li {
+	background-image:url("img/category-a.jpg");
+}
+.category-menu-d li {
+	background-image:url("img/category-d.jpg");
+}
+.category-menu-g li {
+	background-image:url("img/category-g.jpg");
+}
+.category-menu-j li {
+	background-image:url("img/category-j.jpg");
+}
+.category-menu-m li {
+	background-image:url("img/category-m.jpg");
+}
+.category-menu-p li {
+	background-image:url("img/category-p.jpg");
+}
+
 /*post*/
 .post-menu-a, .post-menu-d, .post-menu-g, .post-menu-j, .post-menu-m, .post-menu-p {
 	margin: 0;
@@ -135,7 +154,90 @@ html, body {
 	background-position: center;
 }
 
+/*post-d*/
+#china-d {
+	background-image:url("img/china-d.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#p-d {
+	background-image:url("img/p-d.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#korea-d {
+	background-image:url("img/korea-d.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
 
+/*post-g*/
+#china-g {
+	background-image:url("img/china-g.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#p-g {
+	background-image:url("img/p-g.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#korea-g {
+	background-image:url("img/korea-g.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+/*post-j*/
+#china-j {
+	background-image:url("img/china-j.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#p-j {
+	background-image:url("img/p-j.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#korea-j {
+	background-image:url("img/korea-j.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+/*post-m*/
+#china-m {
+	background-image:url("img/china-m.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#p-m {
+	background-image:url("img/p-m.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#korea-m {
+	background-image:url("img/korea-m.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+/*post-p*/
+#china-p {
+	background-image:url("img/china-p.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#p-p {
+	background-image:url("img/p-p.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#korea-p {
+	background-image:url("img/korea-p.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
 
 table {
 	border : 2px solid #2EFEC8;
