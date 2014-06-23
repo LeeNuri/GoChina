@@ -134,6 +134,17 @@ html, body {
 #korea {
 	background-image:url("img/k.png");
 }
+
+table {
+	border : 2px solid #2EFEC8;
+	border-radius: 5px;
+}
+
+.t {
+	width: 284px;
+	height: 36px;
+}
+
 /*
 .m{
 	position : absolute;
