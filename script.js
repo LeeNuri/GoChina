@@ -19,7 +19,7 @@ $(document).ready(function(){
 	});
 	
 	$("#post #toggle").click(function(){
-		toggle("detail")
+		$("#detail").toggle();
 	})
 
 	$("#detail .top").click(function(){
@@ -33,7 +33,3 @@ var show = function(viewId) {
 	$("#"+viewId).fadeIn();
 }
 
-var toggle = function(viewId) {
-	$(".view").toggle();
-	$("#"+viewId).fadeIn();
-}
