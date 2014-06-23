@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+	<!DOCTYPE html>
 <html>
 <head>
 	<title>Go China!</title>
@@ -11,6 +11,7 @@
 </head>
 <body>
 	<div id="stage">
+		<!--main-->
 		<div class="view" id="main">
 			<div class="top">
 				Go China!
@@ -22,42 +23,80 @@
 				<li></li>
 				<li></li>
 				<li></li>
-			</ul>
-			
+			</ul>			
 		</div>
-		<div class="view" id="category">
+		<!--category-->
+		<div class="view" id="category-a">
 			<div class="top">
 				Basic
 			</div>
-			<ul class="category-menu">
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-			</ul>
-			
+			<ul class="category-menu-a">
+				<li></li>				
+			</ul>			
 		</div>
-		<div class="view" id="post">
+
+		<div class="view" id="category-d">
 			<div class="top">
-				Basic
+				Restaurant
 			</div>
-			<ul class="post-menu">
+			<ul class="category-menu-d">
+				<li></li>				
+			</ul>			
+		</div>
+		<div class="view" id="category-g">
+			<div class="top">
+				Sightseeing
+			</div>
+			<ul class="category-menu-g">
+				<li></li>				
+			</ul>			
+		</div>
+		<div class="view" id="category-j">
+			<div class="top">
+				Stay
+			</div>
+			<ul class="category-menu-j">
+				<li></li>				
+			</ul>			
+		</div>
+		<div class="view" id="category-m">
+			<div class="top">
+				Shopping
+			</div>
+			<ul class="category-menu-m">
+				<li></li>				
+			</ul>			
+		</div>
+		<div class="view" id="category-p">
+			<div class="top">
+				Traffic
+			</div>
+			<ul class="category-menu-p">
+				<li></li>				
+			</ul>			
+		</div>
+
+
+		<!--post-a-->
+		<div class="view" id="post-a">
+			<div class="top">
+				
+			</div>
+			<ul class="post-menu-a">
 				<li>
 					<table>
 						<tbody>
 							<tr>
 								<td class="text" id="china"></td>
-								<td class ="t"></td>
+								<td class ="t" id="china-a"></td>
 							</tr>
 							<tr>
 								<td class="text" id="p"></td>
-								<td class ="t"></td>
+								<td class ="t" id="p-a"></td>
 							</tr>
 							<tr>
 								<td class="text" id="korea"></td>
-								<td class ="t"></td>
+								<td class ="t" id="korea-a"></td>
 							</tr>
 						</tbody>
 					</table>
@@ -66,7 +105,66 @@
 					<table id="player">
 						<tbody>
 							<tr>
+								<td class="play" id="play-a"></td>
+								<td class="pause"></td>
+								<td class="stop"></td>
+								<td class="record"></td>
+							</tr>					
+						</tbody>
+					</table>
+				</li>							
+			</ul>			
+			<!--detail-->
+			<div class="view" id="detail">			
+			<ul class="detail-menu">				
+				<li>
+					<table id="player">
+						<tbody>
+							<tr>
+								<td class="user"></td>
 								<td class="play"></td>
+								<td class="pause"></td>
+								<td class="stop"></td>
+							</tr>					
+						</tbody>
+					</table>
+				</li>				
+			</ul>
+			</div>
+			<div id="toggle">
+				<div id="tri"></div>
+			</div>
+		</div>
+
+		<!--post-d-->
+		<div class="view" id="post-d">
+			<div class="top">
+				
+			</div>
+			<ul class="post-menu-d">
+				<li>
+					<table>
+						<tbody>
+							<tr>
+								<td class="text" id="china"></td>
+								<td class ="t" id="china-d"></td>
+							</tr>
+							<tr>
+								<td class="text" id="p"></td>
+								<td class ="t" id="p-d"></td>
+							</tr>
+							<tr>
+								<td class="text" id="korea"></td>
+								<td class ="t" id="korea-d"></td>
+							</tr>
+						</tbody>
+					</table>
+				</li>
+				<li>
+					<table id="player">
+						<tbody>
+							<tr>
+								<td class="play" id="play-d"></td>
 								<td class="pause"></td>
 								<td class="stop"></td>
 								<td class="record"></td>
@@ -75,8 +173,9 @@
 					</table>
 				</li>							
 			</ul>
+			<!--detail-->
 			<div class="view" id="detail">			
-			<ul class="detail-menu">
+			<ul class="detail-menu">				
 				<li>
 					<table id="player">
 						<tbody>
@@ -88,83 +187,279 @@
 							</tr>					
 						</tbody>
 					</table>
-				</li>
-				<li>
-					<table id="player">
-						<tbody>
-							<tr>
-								<td class="user"></td>
-								<td class="play"></td>
-								<td class="pause"></td>
-								<td class="stop"></td>
-							</tr>					
-						</tbody>
-					</table>
-				</li>
-				<li>
-					<table id="player">
-						<tbody>
-							<tr>
-								<td class="user"></td>
-								<td class="play"></td>
-								<td class="pause"></td>
-								<td class="stop"></td>
-							</tr>					
-						</tbody>
-					</table>
-				</li>
-				<li>
-					<table id="player">
-						<tbody>
-							<tr>
-								<td class="user"></td>
-								<td class="play"></td>
-								<td class="pause"></td>
-								<td class="stop"></td>
-							</tr>					
-						</tbody>
-					</table>
-				</li>
-				<li>
-					<table id="player">
-						<tbody>
-							<tr>
-								<td class="user"></td>
-								<td class="play"></td>
-								<td class="pause"></td>
-								<td class="stop"></td>
-							</tr>					
-						</tbody>
-					</table>
-				</li>
-				<li>
-					<table id="player">
-						<tbody>
-							<tr>
-								<td class="user"></td>
-								<td class="play"></td>
-								<td class="pause"></td>
-								<td class="stop"></td>
-							</tr>					
-						</tbody>
-					</table>
-				</li>
+				</li>				
 			</ul>
 			</div>
 			<div id="toggle">
 				<div id="tri"></div>
 			</div>
 		</div>
-		<div id="user-bar">			
-			<div id="user-more">
-				<ul>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>				
-				</ul>
+
+		<!--post-g-->
+		<div class="view" id="post-g">
+			<div class="top">
+				
+			</div>
+			<ul class="post-menu-g">
+				<li>
+					<table>
+						<tbody>
+							<tr>
+								<td class="text" id="china"></td>
+								<td class ="t" id="china-g"></td>
+							</tr>
+							<tr>
+								<td class="text" id="p"></td>
+								<td class ="t" id="p-g"></td>
+							</tr>
+							<tr>
+								<td class="text" id="korea"></td>
+								<td class ="t" id="korea-g"></td>
+							</tr>
+						</tbody>
+					</table>
+				</li>
+				<li>
+					<table id="player">
+						<tbody>
+							<tr>
+								<td class="play" id="play-g"></td>
+								<td class="pause"></td>
+								<td class="stop"></td>
+								<td class="record"></td>
+							</tr>					
+						</tbody>
+					</table>
+				</li>							
+			</ul>
+			<!--detail-->
+			<div class="view" id="detail">			
+			<ul class="detail-menu">				
+				<li>
+					<table id="player">
+						<tbody>
+							<tr>
+								<td class="user"></td>
+								<td class="play"></td>
+								<td class="pause"></td>
+								<td class="stop"></td>
+							</tr>					
+						</tbody>
+					</table>
+				</li>				
+			</ul>
+			</div>
+			<div id="toggle">
+				<div id="tri"></div>
 			</div>
 		</div>
+
+		<!--post-j-->
+		<div class="view" id="post-j">
+			<div class="top">
+				
+			</div>
+			<ul class="post-menu-j">
+				<li>
+					<table>
+						<tbody>
+							<tr>
+								<td class="text" id="china"></td>
+								<td class ="t" id="china-j"></td>
+							</tr>
+							<tr>
+								<td class="text" id="p"></td>
+								<td class ="t" id="p-j"></td>
+							</tr>
+							<tr>
+								<td class="text" id="korea"></td>
+								<td class ="t" id="korea-j"></td>
+							</tr>
+						</tbody>
+					</table>
+				</li>
+				<li>
+					<table id="player">
+						<tbody>
+							<tr>
+								<td class="play" id="play-j"></td>
+								<td class="pause"></td>
+								<td class="stop"></td>
+								<td class="record"></td>
+							</tr>					
+						</tbody>
+					</table>
+				</li>							
+			</ul>
+			<!--detail-->
+			<div class="view" id="detail">			
+			<ul class="detail-menu">				
+				<li>
+					<table id="player">
+						<tbody>
+							<tr>
+								<td class="user"></td>
+								<td class="play"></td>
+								<td class="pause"></td>
+								<td class="stop"></td>
+							</tr>					
+						</tbody>
+					</table>
+				</li>				
+			</ul>
+			</div>
+			<div id="toggle">
+				<div id="tri"></div>
+			</div>
+		</div>
+
+		<!--post-m-->
+		<div class="view" id="post-m">
+			<div class="top">
+				
+			</div>
+			<ul class="post-menu-m">
+				<li>
+					<table>
+						<tbody>
+							<tr>
+								<td class="text" id="china"></td>
+								<td class ="t" id="china-m"></td>
+							</tr>
+							<tr>
+								<td class="text" id="p"></td>
+								<td class ="t" id="p-m"></td>
+							</tr>
+							<tr>
+								<td class="text" id="korea"></td>
+								<td class ="t" id="korea-m"></td>
+							</tr>
+						</tbody>
+					</table>
+				</li>
+				<li>
+					<table id="player">
+						<tbody>
+							<tr>
+								<td class="play" id="play-m"></td>
+								<td class="pause"></td>
+								<td class="stop"></td>
+								<td class="record"></td>
+							</tr>					
+						</tbody>
+					</table>
+				</li>							
+			</ul>
+			<!--detail-->
+			<div class="view" id="detail">			
+			<ul class="detail-menu">				
+				<li>
+					<table id="player">
+						<tbody>
+							<tr>
+								<td class="user"></td>
+								<td class="play"></td>
+								<td class="pause"></td>
+								<td class="stop"></td>
+							</tr>					
+						</tbody>
+					</table>
+				</li>				
+			</ul>
+			</div>
+			<div id="toggle">
+				<div id="tri"></div>
+			</div>
+		</div>
+
+		<!--post-p-->
+		<div class="view" id="post-p">
+			<div class="top">
+				
+			</div>
+			<ul class="post-menu-p">
+				<li>
+					<table>
+						<tbody>
+							<tr>
+								<td class="text" id="china"></td>
+								<td class ="t" id="china-p"></td>
+							</tr>
+							<tr>
+								<td class="text" id="p"></td>
+								<td class ="t" id="p-p"></td>
+							</tr>
+							<tr>
+								<td class="text" id="korea"></td>
+								<td class ="t" id="korea-p"></td>
+							</tr>
+						</tbody>
+					</table>
+				</li>
+				<li>
+					<table id="player">
+						<tbody>
+							<tr>
+								<td class="play" id="play-p"></td>
+								<td class="pause"></td>
+								<td class="stop"></td>
+								<td class="record"></td>
+							</tr>					
+						</tbody>
+					</table>
+				</li>							
+			</ul>
+			<!--detail-->
+			<div class="view" id="detail">			
+			<ul class="detail-menu">				
+				<li>
+					<table id="player">
+						<tbody>
+							<tr>
+								<td class="user"></td>
+								<td class="play"></td>
+								<td class="pause"></td>
+								<td class="stop"></td>
+							</tr>					
+						</tbody>
+					</table>
+				</li>				
+			</ul>
+			</div>
+			<div id="toggle">
+				<div id="tri"></div>
+			</div>
+		</div>
+
+		
+		
+
+
+	<audio id="a">
+	   	<source src="sound/a.mp3" type="audio/mp3">
+	</audio>
+
+	<audio id="d">
+	   	<source src="sound/d.mp3" type="audio/mp3">
+	</audio>
+
+	<audio id="g">
+	   	<source src="sound/g.mp3" type="audio/mp3">
+	</audio>
+	
+	<audio id="j">
+	   	<source src="sound/j.mp3" type="audio/mp3">
+	</audio>
+	
+	<audio id="m">
+	   	<source src="sound/m.mp3" type="audio/mp3">
+	
+	<audio id="p">
+	   	<source src="sound/p.mp3" type="audio/mp3">
+	</audio>
+	
+
+
 
 		
 </body>

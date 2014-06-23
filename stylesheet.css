@@ -32,7 +32,7 @@ html, body {
 }
 
 /* main */
-#main .top {
+.top {
 	width: 100%;
 	height: 76px;
 	border-bottom: 2px solid #049CBF;
@@ -74,28 +74,17 @@ html, body {
 }
 
 /*category*/
-#category .top {
-	display: fixed;
-	width: 100%;
-	height: 76px;
-	border-bottom: 2px solid #049CBF;
-	font-family: 'Nanum Pen Script';
-	line-height: 76px;
-	font-size: 40px;
-}
-
-#category .category-menu {
+.category-menu-a, .category-menu-d, .category-menu-g, .category-menu-j, .category-menu-m, .category-menu-p {
 	margin: 0;
 	margin-top: 110px;
 	padding: 0;
 }
 
-#category .category-menu li{
+.category-menu-a li, .category-menu-d li, .category-menu-g li, .category-menu-j li, .category-menu-m li, .category-menu-p li {
 	margin: 10px;
 	list-style-type: none;
 	width: 289px;
-	height: 87px;
-	
+	height: 87px;	
 }
 #category .category-menu li{
 	background-color: white;
@@ -104,17 +93,7 @@ html, body {
 }
 
 /*post*/
-#post .top {
-	display: fixed;
-	width: 100%;
-	height: 76px;
-	border-bottom: 2px solid #049CBF;
-	font-family: 'Nanum Pen Script';
-	line-height: 76px;
-	font-size: 40px;
-}
-
-#post .post-menu {
+.post-menu-a, .post-menu-d, .post-menu-g, .post-menu-j, .post-menu-m, .post-menu-p, {
 	margin: 0;
 	margin-top: 110px;
 	padding: 0;
@@ -140,6 +119,25 @@ html, body {
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
+/*post-a*/
+#china-a {
+	background-image:url("img/china-a.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#p-a {
+	background-image:url("img/p-a.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#korea-a {
+	background-image:url("img/korea-a.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
 
 table {
 	border : 2px solid #2EFEC8;
@@ -214,48 +212,3 @@ table {
 	padding: 0;
 }
 
-.user {
-	background-image: url("img/user.jpg");
-	background-repeat: no-repeat;
-	background-position: center; 
-	width: 45px;
-	height: 43px;
-}
-
-#user-bar {
-	background-image: url("img/user-bar.png");
-	background-repeat: no-repeat;
-	background-position: center;
-	float: right;
-	width: 68px;
-	height: 43px;
-}
-
-#user-more {
-	background-image: url("img/user-more.png");
-	background-repeat: no-repeat;
-	background-position: center;
-	float: right;
-	width: 185px;
-	height: 480px;
-}
-
-#user-more li {
-	margin :10px;
-	list-style-type: none;
-	width: 61px;
-	height: 61px;
-}
-
-#user-more li(1) {
-	background-image: url("img/user.jpg");
-}
-#user-more li(2) {
-	background-image: url("img/history.png");
-}
-#user-more li(3) {
-	background-image: url("img/record-h.png");
-}
-#user-more li(4) {
-	background-image: url("img/logout.png");
-}
