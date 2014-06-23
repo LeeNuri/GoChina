@@ -19,8 +19,12 @@ $(document).ready(function(){
 	});
 	
 	$("#post #toggle").click(function(){
-		toggle
+		toggle("detail")
 	})
+
+	$("#detail .top").click(function(){
+		show("main");
+	});
 });
  
  
