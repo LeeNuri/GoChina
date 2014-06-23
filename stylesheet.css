@@ -147,22 +147,75 @@ table {
 
 #player {
 	width: 100%;
+	height: 35px;
+}
+
+.play {
+	background-image:url("img/play.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 22px;
+	height: 33px;
+}
+.pause {
+	background-image:url("img/pause.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 18px;
+	height: 28px;
+}
+.stop {
+	background-image:url("img/stop.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 28px;
+	height: 28px;
+}
+.record {
+	background-image:url("img/record.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 22px;
 	height: 32px;
 }
 
-#play {
-	background-image:url("img/play.png");
-	width: 22px;
+#toggle {
+	border: 2px solid #2EFEC8;
+	width: 60px;
+	height: 25px;
+	float: right;
+	border-radius: 10px;
+	position: relative;
 }
-#pause {
-	background-image:url("img/pause.png");
-	width: 18px;
+
+#tri {
+		border-color: #2E64FE
+		transparent transparent transparent;
+        border-width:20px;
+        border-style:solid;
+        width:0px;height:0px;
+        position: absolute;
+        margin-top: 3px;
+        margin-left: 10px;
 }
-#stop {
-	background-image:url("img/stop.png");
-	width: 28px;
+
+/*detail*/
+#detail .top {
+	display: fixed;
+	width: 100%;
+	height: 76px;
+	border-bottom: 2px solid #049CBF;
+	font-family: 'Nanum Pen Script';
+	line-height: 76px;
+	font-size: 40px;
 }
-#record {
-	background-image:url("img/record.png");
-	width: 22px;
+
+#detail .detail-menu {
+	margin: 0;
+	margin-top: 110px;
+	padding: 0;
+}
+
+.user {
+	background-image: url("img/user.jpg"); 
 }

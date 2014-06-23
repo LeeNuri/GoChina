@@ -18,10 +18,18 @@ $(document).ready(function(){
 		show("main");
 	});
 	
+	$("#post #toggle").click(function(){
+		toggle
+	})
 });
  
  
 var show = function(viewId) {
 	$(".view").fadeOut();
+	$("#"+viewId).fadeIn();
+}
+
+var toggle = function(viewId) {
+	$(".view").toggle();
 	$("#"+viewId).fadeIn();
 }
