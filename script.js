@@ -21,10 +21,6 @@ $(document).ready(function(){
 	$("#post #toggle").click(function(){
 		$("#detail").toggle();
 	})
-
-	$("#detail .top").click(function(){
-		show("main");
-	});
 });
  
  

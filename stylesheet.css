@@ -207,19 +207,10 @@ table {
 }
 
 /*detail*/
-#detail .top {
-	display: fixed;
-	width: 100%;
-	height: 76px;
-	border-bottom: 2px solid #049CBF;
-	font-family: 'Nanum Pen Script';
-	line-height: 76px;
-	font-size: 40px;
-}
 
 #detail .detail-menu {
 	margin: 0;
-	margin-top: 110px;
+	margin-top: 15px;	
 	padding: 0;
 }
 
