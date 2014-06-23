@@ -57,3 +57,4 @@ var show = function(viewId) {
 	$("#"+viewId).fadeIn();
 }
 
+*/
