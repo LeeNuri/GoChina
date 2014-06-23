@@ -145,53 +145,24 @@ table {
 	height: 36px;
 }
 
-/*
-.m{
-	position : absolute;
-	height: 10%;
-	width: 10%;
-	-webkit-background-size: cover;
-}
-#user{
-	background-image : url("img/user.jpg");
-	top : 18px;
-	right : 0px;
+#player {
+	width: 100%;
+	height: 32px;
 }
 
-#basic{
-	background-image : url("img/basic.jpg");
-	top : 111px;
-	left : 18px;
-
+#play {
+	background-image:url("img/play.png");
+	width: 22px;
 }
-
-#food{
-	background-image : url("img/food.jpg");
-	top: 111px;
-	right: 18px;
+#pause {
+	background-image:url("img/pause.png");
+	width: 18px;
 }
-
-#picture{
-	background-image : url("img/picture.jpg");
-	top:234px;
-	left: 18px;
+#stop {
+	background-image:url("img/stop.png");
+	width: 28px;
 }
-
-#bed{
-	background-image : url("img/bed.jpg");
-	top : 234px;
-	right : 18px;
+#record {
+	background-image:url("img/record.png");
+	width: 22px;
 }
-
-#shopping{
-	background-image : url("img/shopping.jpg");
-	top : 357px;
-	left : 18px;
-}
-
-#bus{
-	background-image : url("img/bus.jpg");
-	top : 357px;
-	right : 18px;
-}
-*/
