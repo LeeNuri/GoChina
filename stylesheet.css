@@ -73,6 +73,7 @@ html, body {
 	background-image:url("img/bus.jpg");
 }
 
+/*category*/
 #category .top {
 	display: fixed;
 	width: 100%;
@@ -102,6 +103,37 @@ html, body {
 	border-radius: 10px;
 }
 
+/*post*/
+#post .top {
+	display: fixed;
+	width: 100%;
+	height: 76px;
+	border-bottom: 2px solid #049CBF;
+	font-family: 'Nanum Pen Script';
+	line-height: 76px;
+	font-size: 40px;
+}
+
+#post .post-menu {
+	margin: 0;
+	margin-top: 110px;
+	padding: 0;
+}
+
+.text {
+	width: 36px;
+	height: 36px;
+}
+
+#china {
+	background-image:url("img/c.png");
+}
+#p {
+	background-image:url("img/p.png");
+}
+#korea {
+	background-image:url("img/k.png");
+}
 /*
 .m{
 	position : absolute;
