@@ -284,7 +284,7 @@ table {
 	height: 32px;
 }
 
-#toggle {
+#toggle-a, #toggle-d, #toggle-g, #toggle-j, #toggle-m, #toggle-p {
 	border: 2px solid #2EFEC8;
 	width: 60px;
 	height: 25px;
@@ -293,7 +293,7 @@ table {
 	position: relative;
 }
 
-#tri {
+#tri-a, #tri-d, #tri-g, #tri-j, #tri-m, #tri-p {
 		border-color: #2E64FE
 		transparent transparent transparent;
         border-width:20px;
@@ -314,7 +314,7 @@ table {
 
 /*detail*/
 
-#detail .detail-menu {
+.detail-menu {
 	margin: 0;
 	margin-top: 15px;	
 	padding: 0;

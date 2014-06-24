@@ -86,38 +86,94 @@ $(document).ready(function(){
 		show("category-p");
 	});
 
-	
-	$("#toggle").click(function(){
-		$("#detail").toggle();
+	//toggle
+	$("#toggle-a").click(function(){
+		$("#detail-a").toggle();
+	})
+	$("#toggle-d").click(function(){
+		$("#detail-d").toggle();
+	})
+	$("#toggle-g").click(function(){
+		$("#detail-g").toggle();
+	})
+	$("#toggle-j").click(function(){
+		$("#detail-j").toggle();
+	})
+	$("#toggle-m").click(function(){
+		$("#detail-m").toggle();
+	})
+	$("#toggle-p").click(function(){
+		$("#detail-p").toggle();
 	})
 
-	//audio-play
+	//audio-play&pause
 	$("#play-a").click(function(){
-		$("#a")[0].load();
 		$("#a")[0].play();
 	})
+	$("#pause-a").click(function(){
+		$("#a")[0].pause();
+	})
+	$("#stop-a").click(function(){
+		$("#a")[0].load();
+	})
 
-	$("#play-d").click(function(){
-		$("#d")[0].load();
+
+	$("#play-d").click(function(){		
 		$("#d")[0].play();
 	})
+	$("#pause-d").click(function(){
+		$("#d")[0].pause();
+	})
+	$("#stop-d").click(function(){
+		$("#d")[0].load();
+	})
+
 	
 	$("#play-g").click(function(){
-		$("#g")[0].load();
 		$("#g")[0].play();
 	})
+	$("#pause-g").click(function(){
+		$("#g")[0].pause();
+	})
+	$("#stop-g").click(function(){
+		$("#g")[0].load();
+	})
+
+
 	$("#play-j").click(function(){
-		$("#j")[0].load();
 		$("#j")[0].play();
 	})
+	$("#pause-j").click(function(){
+		$("#j")[0].pause();
+	})
+	$("#stop-j").click(function(){
+		$("#j")[0].load();
+	})
+
+
 	$("#play-m").click(function(){
-		$("#m")[0].load();
 		$("#m")[0].play();
 	})
-	$("#play-p").click(function(){
-		$("#p")[0].load();
-		$("#p")[0].play();
+	$("#pause-m").click(function(){
+		$("#m")[0].pause();
 	})
+	$("#stop-m").click(function(){
+		$("#m")[0].load();
+	})
+
+
+	$("#play-p").click(function(){
+		$("#audio-p")[0].play();
+	})
+	$("#pause-p").click(function(){
+		$("#audio-p")[0].pause();
+	})
+	$("#stop-p").click(function(){
+		$("#audio-p")[0].load();
+	})
+
+	
+	
 
 
 });
